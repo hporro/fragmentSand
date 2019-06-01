@@ -23,7 +23,7 @@ There are no people other than the author contributing to this project (yet).
 
 ## Versioning
 
-For the versions available, see the tags on this repository.
+[SemVer](http://semver.org/) is used for versioning. For the versions available, see the tags on this repository.
 
 ## Author
 

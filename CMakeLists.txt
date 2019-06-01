@@ -12,7 +12,8 @@ include_directories(libs/glad/include)
 include_directories(libs/glm)
 
 # library for loading images
-set(STD_IMAGE libs/stb_image.h libs/load_images.cpp)
+#set(STD_IMAGE libs/stb_image.h libs/load_images.cpp)
+
 set(SRC src/main.cpp src/Shader.h)
 
 add_executable(learnOpenGL ${SRC} ${STD_IMAGE} libs/glad/src/glad.c)
