@@ -16,5 +16,5 @@ include_directories(libs/glm)
 
 set(SRC src/main.cpp src/Shader.h)
 
-add_executable(learnOpenGL ${SRC} ${STD_IMAGE} libs/glad/src/glad.c)
-target_link_libraries(learnOpenGL glfw ${GLFW_LIBRARIES})
+add_executable(sand ${SRC} ${STD_IMAGE} libs/glad/src/glad.c)
+target_link_libraries(sand glfw ${GLFW_LIBRARIES})

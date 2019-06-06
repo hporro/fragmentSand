@@ -15,6 +15,7 @@ int g_width = 800;
 int g_height = 600;
 int g_sand_mode = 1;
 int g_wall_mode = 0;
+int g_eraser_mode = 0;
 double g_xpos = 0.0,g_ypos = 0.0;
 int g_left_mouse_button = 0;
 
@@ -133,6 +134,7 @@ int main() {
         shader.setInt("mouse_leftButton_u",g_left_mouse_button);
         shader.setInt("sand_mode_u",g_sand_mode);
         shader.setInt("wall_mode_u",g_wall_mode);
+        shader.setInt("eraser_mode_u",g_eraser_mode);
 
         //swap src and dest values
         src = activeBuffer;
@@ -195,10 +197,18 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
     if(glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS){
         g_sand_mode = 1;
         g_wall_mode = 0;
+        g_eraser_mode = 0;
     }
 
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS){
         g_sand_mode = 0;
         g_wall_mode = 1;
+        g_eraser_mode = 0;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_E) == GLFW_PRESS){
+        g_sand_mode = 0;
+        g_wall_mode = 0;
+        g_eraser_mode = 1;
     }
 }
