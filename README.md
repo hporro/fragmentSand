@@ -17,7 +17,3 @@ There are no people other than the author contributing to this project (yet(?)).
 * **Heinich Porro** - *Initial work* - [hporro](https://github.com/hporro)
 
 [//]: # "See also the list of [contributors](https://github.com/hporro/fragmentSand/contributors) who participated in this project."
-
-## Acknowledgments
-
-* Thanks to profs. Nancy Hitschfeld K. and Benoît Crespin for all their guidance and help in this directed work's project.
