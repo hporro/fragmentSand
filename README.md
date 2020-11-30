@@ -1,6 +1,15 @@
 # fragmentSand
 A OpenGL fragment shader based 2D falling sand simulator game.
 
+## Getting started
+
+To run this program you need cmake installed (and maybe some OpenGL things depending on your OS).
+Make a build folder, and from there call "cmake ." and "cmake --build .". Then run the "sand" binary.
+
+## Example
+
+![example](resources/example.png)
+
 ## Built With
 
 * [glad]( https://github.com/Dav1dde/glad ) - For OpenGL api.
@@ -17,3 +26,5 @@ There are no people other than the author contributing to this project (yet(?)).
 * **Heinich Porro** - *Initial work* - [hporro](https://github.com/hporro)
 
 [//]: # "See also the list of [contributors](https://github.com/hporro/fragmentSand/contributors) who participated in this project."
+
+## Licence
